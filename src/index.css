@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: rgb(212, 175, 205);
+  background: linear-gradient(
+    90deg,
+    rgba(212, 175, 205, 1) 0%,
+    rgba(245, 245, 245, 1) 90%
+  );
+}
+
+.RhodiumLibre {
+  font-family: "Rhodium Libre", serif;
+}
+
+.LandingBtn {
+  background-color: #2e8293;
+}
+.LandingBtnStart {
+  background-color: #48cae4;
+}
+
+.WorkSans {
+  font-family: "Work Sans", sans-serif;
+}
+
+.stroke {
+  -webkit-text-stroke: 1px black;
+}
+
+.custom-shadow {
+  box-shadow: 5px 5px 6px gray;
+}
